@@ -7,7 +7,8 @@ background-color:#ECECEC ;
 .logo {
     color:#2196F3
 
-    font family : Raleway
+    
+    font family: Raleway
     font style: Bold
     font size: 26px 
     line height: 1,19
@@ -18,6 +19,7 @@ background-color:#ECECEC ;
 }
 .first-part {
 color: #2196F3
+  
   font family: Raleway
   font style: Bold 
   font size: 26px 
@@ -29,12 +31,13 @@ color: #2196F3
 }
 .last-part {
     color: #000000
-      font family: Raleway
-      font style: Bold 
-      font size: 26px 
-      line height: 1, 19 
-      line height: 100% 
-      align: Left 
-      vertical align: Top 
-      letter spacing: 3%
+
+    font family: Raleway
+    font style: Bold 
+    font size: 26px 
+    line height: 1, 19 
+    line height: 100% 
+    align: Left 
+    vertical align: Top 
+    letter spacing: 3%
 }
