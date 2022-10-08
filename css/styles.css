@@ -1,11 +1,40 @@
-.logo{
+header {
+background-color:#ECECEC ;
+
+}
+
+
+.logo {
     color:#2196F3
 
-    Font style: Bold
-    Font size: 26px 
-    Line height: 31px 
-    Line height: 100% 
-    Align: Left 
-    Vertical align: Top
-    Letter spacing: 3%
+    font family : Raleway
+    font style: Bold
+    font size: 26px 
+    line height: 1,19
+    line height: 100% 
+    align: Left 
+    vertical align: Top
+    letter spacing: 3%
+}
+.first-part {
+color: #2196F3
+  font family: Raleway
+  font style: Bold 
+  font size: 26px 
+  line height: 1, 19 
+  line height: 100% 
+  align: Left vertical 
+  align: Top
+  letter spacing: 3%
+}
+.last-part {
+    color: #000000
+      font family: Raleway
+      font style: Bold 
+      font size: 26px 
+      line height: 1, 19 
+      line height: 100% 
+      align: Left 
+      vertical align: Top 
+      letter spacing: 3%
 }
