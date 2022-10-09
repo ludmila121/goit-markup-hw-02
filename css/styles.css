@@ -50,7 +50,7 @@ Letter-spacing: 0.03em;
 .link-page{
   color:#212121; 
 
-  font-size: Roboto;
+  font-family: Roboto;
   font-weight: 500;
   Font-size: 14px;
   line-height: 1.14%;
@@ -59,7 +59,7 @@ Letter-spacing: 0.03em;
 
 .link-page-studio{
   color:#212121; 
-font-style: Roboto;
+font-family: Roboto;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -68,7 +68,7 @@ letter-spacing:  0.02em;
 
 .link-page-contact {
   color:#212121;
-font-style: Roboto;
+font-family: Roboto;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -79,7 +79,7 @@ letter-spacing:  0.02em;
 .link-contacts{
 color: #2196F3;
 color: #212121;
-font-style: Roboto;
+font-family: Roboto;
 font-weight:  500;
 font-size:  14px;
 line-height: 1.14;
@@ -89,7 +89,7 @@ letter-spacing:  0.02em
 
 .link-contacts-mail {
   color: #757575;
-  font-style: Roboto;
+  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -99,7 +99,7 @@ letter-spacing:  0.02em
 
 .link-contacts-tel {
   color: #757575;
-font-style: Roboto;
+font-family: Roboto;
 font-weight: 500;
 Font-size: 14px;
 Line-height: 1.14;
