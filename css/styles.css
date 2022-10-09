@@ -20,207 +20,169 @@ body {
 .logo {
     color:#2196F3;
 
-    Font-family: Raleway
-    Font style  Bold
-    Font size 26px
-    Line height 1.19%
-    Line height 100%
-    Align Left
-    Vertical align: Top
-    Letter spacing: 0.03em
+    font-family: Raleway;
+    font-weight: 700;
+    font-size:  26px;
+    line-height: 1.19%;
+    letter-spacing: 0.03em;
 }
 .first-part {
-color: #2196F3
+color: #2196F3;
   
-Font-family Raleway
-Font style Bold
-Font size 26px
-Line height 1.19%
-Line height 100%
-Align Left
-Vertical align Top
-Letter spacing 0.03em
+Font-family: Raleway;
+Font-weight: 700;
+font-size: 26px;
+line-height: 1.19%;
+Letter-spacing: 0.03em;
 }
-.last-part {
-    color: #000000
 
-Font-Family Raleway
-Font style Bold
-Font size 26px
-Line height 1.19%
-Line height 100%
-Align Left
-Vertical align: Top
-Letter spacing:0.03em
+.last-part {
+    color: #000000;
+
+Font-Family: Raleway;
+font-weight:700;
+font-size: 26px;
+line-height:  1.19%;
+Letter-spacing: 0.03em;
 }
 
 
 .link-page{
-  color:#212121 
+  color:#212121; 
 
-  Font family: Roboto
-  Font style: Medium
-  Font size: 14px
-  Line height: 1.14%
-  Line height: 100%
-  Align: Left
-  Vertical align: Top
-  Letter spacing: 0.02
+  font-size: Roboto;
+  font-size: Medium;
+  Font-size: 14px;
+  line-height: 1.14%;
+  Letter-spacing: 0.02em;
 }
+
 .link-page-studio{
-  color:#212121 
-font-style: Roboto
-font-size: Medium
-font-size: 14px
-line-height: 1.14
-line-height: 100%
-Align Left
-vertical-align:  Top
-letter-spacing:  0.02em
+  color:#212121; 
+font-style: Roboto;
+font-size: Medium;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing:  0.02em;
 }
+
 .link-page-contact {
-  color:#212121 
-font-style: Roboto
-font-size: Medium
-font-size: 14px
-line-height: 1.14
-line-height: 100%
-Align Left
-vertical-align:  Top
-letter-spacing:  0.02em
+  color:#212121;
+font-style: Roboto;
+font-size: Medium;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing:  0.02em;
 }
 
 
 .link-contacts{
-color: #2196F3
-color: #212121
-font-style: Roboto
-font size Medium
-font size 14px
-line height 1.14
-line height 100%
-Align Left
-vertical-align:  Top
+color: #2196F3;
+color: #212121;
+font-style: Roboto;
+font-size:  Medium;
+font-size:  14px;
+line-height: 1.14;
 letter-spacing:  0.02em
 }
+
+
 .link-contacts-mail {
-  color: #757575
-  font-style: Roboto
-  font-size: Medium
-  font-size: 14px
-  line-height: 1.14
-  line-height: 100%
-  Align Left
-  vertical-align:  Top
-  letter-spacing:  0.02em
+  color: #757575;
+  font-style: Roboto;
+  font-size: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing:  0.02em;
 }
+
+
 .link-contacts-tel {
-  color: #757575
-font-style: Roboto
-Font-size: Medium
-Font-size: 14px
-Line-height: 1.14
-Line-height 100%
-Align Left
-Vertical align  Top
-Letter-spacing 0.02em;
+  color: #757575;
+font-style: Roboto;
+Font-size: Medium;
+Font-size: 14px;
+Line-height: 1.14;
+Letter-spacing: 0.02em;
 }
 .banner {
   background-color: #000000;
   color:#FFFFFF ;
-  Font-family: Roboto
-  Font-style Black
-  Font-size 44px
-  Line-height 1.36
-  Line-height 116%
-  Align Center
-  Vertical align Top
-  Letter spacing 0.06em
+  Font-family: Roboto;
+  Font-style: Black;
+  Font-size: 44px;
+  Line-height: 1.36;
+  letter-spacing:  0.06em;
 }
+
 .button {
   background-color:#2196F3;
   color:#FFFFFF ;
-  font-family: Roboto
-  Font-style Bold
-  Font-size 16px
-  Line-height 1.87
-  Line-height 160%
-  Align Center
-  Vertical align Center
-  Letter spacing 0.06em
+  font-family: Roboto;
+  Font-style: Bold;
+  Font-size: 16px;
+  Line-height: 1.87;
+  Letter-spacing: 0.06em;
 }
+
 .benefits {
 
   color: #757575 ;
   color: #212121 ;
 
-  Font-family: Roboto
-Font-style Bold
-Font-size 14px
-Line-height 1.14
-Line-height 100%
-Align Left
-Vertical align Top
-Letter spacing 0.03em
+  Font-family: Roboto;
+Font-style: Bold;
+Font-size: 14px;
+Line-height: 1.14;
+letter-spacing:  0.03em;
 }
+
+
 .benefits-details {
   color: #212121;
-  Font-family: Roboto
-Font-style Bold
-Font-size 14px
-Line-height 1.14
-Line-height 100%
-Align Left
-Vertical align Top
-Letter spacing 0.03em
+  Font-family: Roboto;
+Font-style: Bold;
+Font-size: 14px;
+Line-height: 1.14;
+letter-spacing:  0.03em;
 }
+
+
 .benefits-punctuality {
   color: #212121;
-  Font-family: Roboto
-Font-style Bold
-Font-size 14px
-Line-height 1.14
-Line-height 100%
-Align Left
-Vertical align Top
-Letter spacing 0.03em
+  Font-family: Roboto;
+Font-style: Bold;
+Font-size: 14px;
+Line-height: 1.14;
+letter-spacing:  0.03em;
 }
 
 .benefits-planning {
   color: #212121;
 
-Font-family: Roboto
-Font-style Bold
-Font-size 14px
-Line-height 1.14
-Line-height 100%
-Align Left
-Vertical align Top
-Letter spacing 0.03em
+Font-family: Roboto;
+Font-style: Bold;
+Font-size: 14px;
+Line-height: 1.14;
+letter-spacing: 0.03em;
 }
 
 
 .benefits-technologies {
 color: #212121;
 
-font-family: Roboto
-Font-style Bold
-Font-size 14px
-Line-height 1.14
-Line-height 100%
-Align Left
-Vertical align Top
-Letter spacing 0.03em
+font-family: Roboto;
+Font-style: Bold;
+Font-size: 14px;
+Line-height: 1.14;
+letter-spacing: 0.03em;
 }
 
 .benefits-text {
   color: #757575;
-Font-family:  Roboto
-Font style Regular
-Font size 14px
-Line height 1.71
-Line height 146%
-Align Left
-Vertical align Top
-Letter spacing 0.03em
+Font-family:  Roboto;
+Font-style: Regular;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing:  0.03em;
 }
