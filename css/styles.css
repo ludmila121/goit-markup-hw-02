@@ -62,7 +62,7 @@ Letter-spacing: 0.03em;
 .link-page:focus
 {color: var(--accent-color);
 }
-.link-page:current{
+.link.current{
   color: var(--accent-color);
 
 }
@@ -124,7 +124,7 @@ letter-spacing:  0.02em
 
 
 .button {
-  background-color:#2196F3;
+  background-color:var(--accent-color);
   color:var(--primary-white-color);
   font-family: Roboto;
   font-weight: 700;
@@ -175,7 +175,7 @@ letter-spacing:  0.03em;
   font-weight: 700;
   font-size: 36px;
   Line-height: 1.16;
-  letter-spacing: 0.03em
+  letter-spacing: 0.03em;
 }
 
 .team-name {
@@ -184,7 +184,7 @@ letter-spacing:  0.03em;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
-letter-spacing: 0.03em
+letter-spacing: 0.03em;
 }
 
 .team-job {
@@ -193,7 +193,7 @@ letter-spacing: 0.03em
 font-weight: 400;
 font-size: 16px;
 Line-height: 1.18;
-letter-spacing: 0.03em
+letter-spacing: 0.03em;
 }
 
 .footer{
@@ -215,5 +215,37 @@ letter-spacing: 0.03em;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em
+letter-spacing: 0.03em;
+}
+
+.task{
+  background-color:#F5F4FA ;
+  color: var(--primary-text-color);
+  font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+}
+.tast:hover{
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  cursor: pointer;
+}
+.img {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+
+}
+.description {
+  color: var(--title-text-color);
+  font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
 }
