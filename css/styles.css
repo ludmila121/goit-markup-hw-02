@@ -1,43 +1,80 @@
+font-family Raleway sans-serif
+font-family Roboto sans-serif
+
 header {
-background-color:#ECECEC ;
+background-color:#ECECEC
 
 }
 
 
 .logo {
-    color:#2196F3
+    color:#2196F3;
 
-    
-    font family: Raleway
-    font style: Bold
-    font size: 26px 
-    line height: 1,19
-    line height: 100% 
-    align: Left 
-    vertical align: Top
-    letter spacing: 3%
+    font-family: Raleway;
+    font-style: Bold;
+    font-size: 26 px; 
+    line-height: 1,19;
+    line-height: 100%; 
+    align: Left; 
+    vertical-align: Top;
+    letter-spacing: 3%;
 }
 .first-part {
-color: #2196F3
+color: #2196F3;
   
-  font family: Raleway
-  font style: Bold 
-  font size: 26px 
-  line height: 1, 19 
-  line height: 100% 
-  align: Left vertical 
-  align: Top
-  letter spacing: 3%
+  font-family: Raleway;
+  font-style: Bold; 
+  font-size: 26px; 
+  line-height: 1,19;
+  line-height: 100%; 
+  align:Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
 }
 .last-part {
-    color: #000000
+    color: #000000;
 
-    font family: Raleway
-    font style: Bold 
-    font size: 26px 
-    line height: 1, 19 
-    line height: 100% 
-    align: Left 
-    vertical align: Top 
-    letter spacing: 3%
+    font-family: Raleway;
+    font-style: Bold; 
+    font-size: 26px; 
+    line-height: 1,19; 
+    line-height: 100%; 
+    align: Left; 
+    vertical-align: Top; 
+    letter-spacing: 3%;
+}
+.link-page{
+  color:#212121 ;
+
+Font-size: Roboto;
+Font-style: Medium;
+Font-size: 14px;
+Line-height: 1,14;
+Line-height: 100%;
+Align: Left;
+vertical-align: Top;
+letter-spacing: 2%;
+
+}
+.link-page-studio{
+  color:#212121 ;
+font-style: Roboto;
+font-size: Medium;
+font-size: 14px;
+line-height: 1,14;
+line-height: 100%
+Align Left;
+vertical-align:  Top;
+letter-spacing:  2%;
+}
+.link-page-contact{
+  color:#212121 ;
+font-style: Roboto;
+font-size: Medium;
+font-size: 14px;
+line-height: 1,14;
+line-height: 100%
+Align Left;
+vertical-align:  Top;
+letter-spacing:  2%;
 }
