@@ -11,54 +11,64 @@ body {
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
 }
 
 
 .logo {
-    color:#2196F3;
+    color: var(--accent-color);
 
     font-family: Raleway;
     font-weight: 700;
     font-size:  26px;
-    line-height: 1.19%;
+    line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .first-part {
-color: #2196F3;
+color:var(--primary-text-color);
   
 Font-family: Raleway;
 Font-weight: 700;
 font-size: 26px;
-line-height: 1.19%;
+line-height: 1.19;
 Letter-spacing: 0.03em;
 }
 
 .last-part {
-    color: #000000;
+  background-color: #2F303A ;  
+  color:var(--primary-white-color);
 
 Font-Family: Raleway;
 font-weight:700;
 font-size: 26px;
-line-height:  1.19%;
+line-height:  1.19;
 Letter-spacing: 0.03em;
 }
 
 
 .link-page{
-  color:#212121; 
+  color:var(--primary-text-color);
 
   font-family: Roboto;
   font-weight: 500;
   Font-size: 14px;
-  line-height: 1.14%;
+  line-height: 1.14;
   Letter-spacing: 0.02em;
+}
+.link-page:hover,
+.link-page:focus
+{color: var(--accent-color);
+}
+.link-page:current{
+  color: var(--accent-color);
+
 }
 
 .link-page-studio{
-  color:#212121; 
+  color:var(--primary-text-color); 
 font-family: Roboto;
 font-weight: 500;
 font-size: 14px;
@@ -67,7 +77,7 @@ letter-spacing:  0.02em;
 }
 
 .link-page-contact {
-  color:#212121;
+  color:var(--primary-text-color); 
 font-family: Roboto;
 font-weight: 500;
 font-size: 14px;
@@ -77,18 +87,20 @@ letter-spacing:  0.02em;
 
 
 .link-contacts{
-color: #2196F3;
-color: #212121;
+
+color:var(--primary-text-color);
 font-family: Roboto;
 font-weight:  500;
 font-size:  14px;
 line-height: 1.14;
 letter-spacing:  0.02em
 }
-
+.link-contacts:hover{
+  color: var(--accent-color);
+}
 
 .link-contacts-mail {
-  color: #757575;
+  color:var(--title-text-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -98,7 +110,7 @@ letter-spacing:  0.02em
 
 
 .link-contacts-tel {
-  color: #757575;
+  color:var(--title-text-color);
 font-family: Roboto;
 font-weight: 500;
 Font-size: 14px;
@@ -106,8 +118,11 @@ Line-height: 1.14;
 Letter-spacing: 0.02em;
 }
 .banner {
-  background-color: #000000;
-  color:#FFFFFF ;
+  background-color:#2F303A
+ 
+}
+.banner-title{
+  color:var(--primary-white-color);
   Font-family: Roboto;
   font-weight: 900;
   Font-size: 44px;
@@ -115,9 +130,10 @@ Letter-spacing: 0.02em;
   letter-spacing:  0.06em;
 }
 
+
 .button {
   background-color:#2196F3;
-  color:#FFFFFF ;
+  color:var(--primary-white-color);
   font-family: Roboto;
   font-weight: 700;
   Font-size: 16px;
@@ -138,8 +154,12 @@ letter-spacing:  0.03em;
 }
 
 
-.benefits-details {
-  color: #212121;
+.benefits-details,
+.benefits-punctuality,
+.benefits-planning,
+.benefits-technologies 
+{
+  color: var(--primary-text-color); 
   Font-family: Roboto;
 font-weight: 700;
 Font-size: 14px;
@@ -147,42 +167,61 @@ Line-height: 1.14;
 letter-spacing:  0.03em;
 }
 
-
-.benefits-punctuality {
-  color: #212121;
-  Font-family: Roboto;
-font-weight: 700;
-Font-size: 14px;
-Line-height: 1.14;
-letter-spacing:  0.03em;
-}
-
-.benefits-planning {
-  color: #212121;
-
-Font-family: Roboto;
-font-weight: 700;
-Font-size: 14px;
-Line-height: 1.14;
-letter-spacing: 0.03em;
-}
-
-
-.benefits-technologies {
-color: #212121;
-
-font-family: Roboto;
-font-weight: 700;
-Font-size: 14px;
-Line-height: 1.14;
-letter-spacing: 0.03em;
-}
 
 .benefits-text {
-  color: #757575;
+  color:var(--title-text-color);
 Font-family:  Roboto;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing:  0.03em;
+}
+
+.team-title {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  Line-height: 1.16;
+  letter-spacing: 0.03em
+}
+
+.team-name {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em
+}
+
+.team-job {
+  color: var(--title-text-color);
+  font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+Line-height: 1.18;
+letter-spacing: 0.03em
+}
+
+.footer{
+  background-color: #2F303A;
+}
+.address{
+  color:var(--primary-white-color) ;
+  font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+.mail,
+.tel{
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em
 }
