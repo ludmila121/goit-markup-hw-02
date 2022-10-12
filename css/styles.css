@@ -10,7 +10,6 @@
   --sixth-color: #ECECEC;
   --seventh-color:#188CE8;
 }
-
 body {
   background-color: var(--primary-white-color);
   color:var(--primary-text-color);
@@ -18,6 +17,8 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
 }
+
+
 
 .logo {
     color: var(--accent-color);
@@ -27,32 +28,35 @@ body {
     line-height: 1.19;
     text-decoration: none;
 }
-
-
 .first-part {
   color: var(--fourth-color);
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
-
 .last-part {
   color: var(--primary-white-color);
 }
 
+
+
 .link-page {
-  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.17;
   text-decoration:none;
   list-style: none;
 }
+
+.link-page-contact,
+.link-page-portfolio,
+.link-page-studio{
+  color: var(--primary-text-color);
+}
+
+
 .link-page-contact,
 .link-page-portfolio,
 .link-page-studio,
 .link-curren {
   text-decoration: none;
 }
-
 
 .link-page-studio:hover,
 .link-page-portfolio:hover,
@@ -66,23 +70,22 @@ body {
 .link-page-contacts:focus
 {color: var(--accent-color);
 }
-
-
-
-
 .link.current {
   color: var(--accent-color);
   text-decoration: none;
 }
 
 
+
 .link-contacts{
-line-height: 1.14;
+ font-weight: 500;
+line-height: 1.17;
 letter-spacing:  0.02em;
 list-style: none;
 }
 .link-contacts-mail,
 .link-contacts-tel{
+  color:var(--title-text-color);
   text-decoration: none;
 }
 
@@ -96,28 +99,22 @@ list-style: none;
   color: var(--accent-color);
 }
 
-.link-contacts-mail,
-.link-contacts-tel {
-  color:var(--title-text-color);
-  line-height: 1.14;
-  letter-spacing:  0.02em;
-}
+
 
 
 .banner {
-  background-color:#2F303A
+  background-color:var(--secundary-color)
+
  }
 
-
- .banner-title{
+.banner-title{
   color:var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing:  0.06em;
+  text-transform: uppercase;
 }
-
-
 .button {
   background-color:var(--accent-color);
   color:var(--primary-white-color);
@@ -126,13 +123,19 @@ list-style: none;
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-
+font-family: inherit;
 }
 
+.button:hover{
+  background-color: var(--seventh-color);
+}
 
 .button:active{
-  background-color: #188CE8;
+  background-color:var(--seventh-color);
+ color: rgba(0, 0, 0, 0.15)
 }
+
+
 
 
 .benefits-type{
@@ -148,25 +151,25 @@ list-style: none;
 font-weight: 700;
 line-height: 1.14;
 list-style: none;
+font-size: 14px;
 }
-
 
 .benefits-text {
 color:var(--title-text-color);
 font-weight: 400;
+line-height: 1.71;
 }
 .work-type
-{
+{width: 1170px;
   list-style: none;
 }
 
+
 .team-type{
-  background-color: #F5F4FA;
+  background-color: var(--fifth-color);
 }
 
-
-
-
+.work-title,
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -181,6 +184,7 @@ font-weight: 400;
 
 
 .team-name {
+  font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 }
@@ -189,7 +193,6 @@ line-height: 1.18;
 
 .team-job {
   color: var(--title-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 }
@@ -201,44 +204,70 @@ width: 370px;
 
 
 .footer{
-  background-color: #2F303A;
+  background-color: var(--secundary-color);
 }
 
 .address{
   font-style: normal;
-  font-weight: 400;
+  line-height: 1.71;
   list-style: none
+
 }
 
 .address-type{
  color: var(--primary-white-color);
  text-decoration: none;
 }
-.address-mail,
-.address-tel {
-  color:rgba(255, 255, 255, 0.6);
-font-weight: 400;
-text-decoration: none;
+.address-type:hover,
+.address-mail:hover,
+.address-tel:hover{
+color: var(--accent-color);
 }
 
 
-.task{
-  background-color:#F5F4FA ;
+
+.address-mail,
+.address-tel {
+  color:rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+
+.btn{
+  list-style: none;
+}
+
+
+.task-all,
+.task-web, 
+.task-app, 
+.task-design,
+.task-marketing {
+  background-color:var(--fifth-color);
+  font-family: inherit;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 cursor: pointer;
 }
 
 
-.tast:hover{
+
+.task-all:hover,
+.task-web:hover, 
+.task-app:hover, 
+.task-design:hover,
+.task-marketing:hover
+{
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   cursor: pointer;
 }
 
+.poster {
+ list-style: none;
+}
 
-
-.img {
+.heading {
 font-weight: 700;
 font-size: 18px;
 line-height: 2.00;
@@ -249,7 +278,6 @@ letter-spacing: 0.06em;
 
 .description {
   color: var(--title-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 }
