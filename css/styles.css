@@ -3,22 +3,24 @@
   --title-text-color:#757575;
   --accent-color:#2196F3;
   --primary-white-color: #FFFFFF;
+  --secundary-color: #2F303A;
+  --thertiary-color: #EEEEEE;
+  --fourth-color: #000000;
+  --fifth-color:#F5F4FA;
+  --sixth-color: #ECECEC;
+  --seventh-color:#188CE8;
 }
 
 body {
   background-color: var(--primary-white-color);
   color:var(--primary-text-color);
-
   font-family: Roboto, sans-serif;
-  font-weight: 500;
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1.71;
 }
 
 .logo {
     color: var(--accent-color);
-
     font-family: Raleway;
     font-weight: 700;
     font-size:  26px;
@@ -28,20 +30,19 @@ body {
 
 
 .first-part {
-  color:#000000;
-  Font-family: Raleway;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
+  color: var(--fourth-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
-
-
 
 .last-part {
   color: var(--primary-white-color);
 }
 
 .link-page {
+  color: var(--primary-text-color);
   text-decoration:none;
   list-style: none;
 }
